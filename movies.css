@@ -1,0 +1,19 @@
+  body{
+            background-color: darkolivegreen;
+            color: white;
+          
+        }
+        .movieContainer{
+            border: 2px solid red;
+            padding: 10px;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+        #divMovies{
+            padding: 10px;
+            border: 1px solid black;
+            width: 300px;
+            height: 400px;
+            /*add a scroll bar if we end with a lot of movies in teh list */
+            overflow-y: auto;
+        }
